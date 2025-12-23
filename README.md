@@ -29,7 +29,7 @@ Praktikum ini berfokus pada penerapan:
 ## Struktur Folder Project
 Project disusun dengan struktur sebagai berikut:
 
-![Struktur Folder](img/struktur-folder.png)
+![Struktur Folder](img/struktur_folder.png)
 
 ---
 
@@ -54,14 +54,14 @@ Halaman ini menampilkan daftar artikel yang tersedia.
 ## Tambah Artikel
 Halaman ini digunakan untuk menambahkan data artikel baru melalui form input.
 
-![Tambah Artikel](img/tambah-artikel.png)
+![Tambah Artikel](img/tambah_artikel.png)
 
 ---
 
 ## Penyimpanan Data ke Database
 Data artikel yang ditambahkan melalui form berhasil disimpan ke dalam database `latihan_oop` pada tabel `artikel` menggunakan class `Database`.
 
-![Database Artikel](img/db-artikel.png)
+![Database Artikel](img/database.png)
 
 ---
 
