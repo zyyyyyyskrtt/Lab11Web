@@ -2,7 +2,7 @@
 
 ## Identitas
 - Nama : Razy Al Farisi  
-- NIM  : (isi NIM)  
+- NIM  : 312410524 
 - Prodi : Teknik Informatika  
 - Universitas : Universitas Pelita Bangsa  
 
