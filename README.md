@@ -99,38 +99,36 @@ Berikut merupakan dokumentasi hasil implementasi aplikasi pada Praktikum 11 PHP 
 ### 1. Struktur Folder Project
 Menampilkan struktur folder aplikasi yang menunjukkan penerapan konsep modular dan pemisahan file berdasarkan fungsi.
 
-![Struktur Folder](screenshots/folder.png)
+![Struktur Folder](struktur_folder.png)
 
 ---
 
 ### 2. Halaman Daftar Artikel
 Menampilkan seluruh data artikel yang tersimpan di dalam database, serta menyediakan aksi tambah, ubah, dan hapus data.
 
-![Daftar Artikel](screenshots/artikel.png)
+![Daftar Artikel](artikel.png)
 
 ---
 
 ### 3. Halaman Tambah Artikel
 Digunakan untuk menambahkan data artikel baru ke dalam database melalui form input.
 
-![Tambah Artikel](screenshots/tambahartikell.png)
+![Tambah Artikel](tambah_artikel.png)
 
 ---
 
 ### 4. Halaman Edit Artikel
 Digunakan untuk mengubah data artikel yang telah tersimpan di dalam database.
 
-![Edit Artikel](screenshots/edit.png)
+![Edit Artikel](edit_artikel.png)
 
 ---
 
 ### 5. Database Artikel (phpMyAdmin)
 Menampilkan data artikel yang tersimpan pada database `latihan_oop` melalui phpMyAdmin.
 
-![Database Artikel](screenshots/database.png)
+![Database Artikel](database.png)
 
-Menampilkan data artikel yang tersimpan pada database `latihan_oop` melalui phpMyAdmin.
 
-![Database Artikel](screenshots/database.png)
 
 
