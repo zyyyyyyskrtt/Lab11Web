@@ -94,40 +94,38 @@ lab11_php_oop/
 
 ## Dokumentasi Aplikasi
 
-Berikut merupakan dokumentasi hasil implementasi aplikasi pada Praktikum 11 PHP OOP.
-
 ### 1. Struktur Folder Project
-Menampilkan struktur folder aplikasi yang menunjukkan penerapan konsep modular dan pemisahan file berdasarkan fungsi.
+Menampilkan struktur folder aplikasi yang menunjukkan penerapan konsep modular.
 
-![Struktur Folder](struktur_folder.png)
+![Struktur Folder](img/struktur_folder.png)
 
 ---
 
 ### 2. Halaman Daftar Artikel
-Menampilkan seluruh data artikel yang tersimpan di dalam database, serta menyediakan aksi tambah, ubah, dan hapus data.
+Menampilkan seluruh data artikel yang tersimpan di dalam database.
 
-![Daftar Artikel](artikel.png)
+![Daftar Artikel](img/artikel.png)
 
 ---
 
 ### 3. Halaman Tambah Artikel
-Digunakan untuk menambahkan data artikel baru ke dalam database melalui form input.
+Digunakan untuk menambahkan data artikel baru ke dalam database.
 
-![Tambah Artikel](tambah_artikel.png)
+![Tambah Artikel](img/tambah_artikel.png)
 
 ---
 
 ### 4. Halaman Edit Artikel
 Digunakan untuk mengubah data artikel yang telah tersimpan di dalam database.
 
-![Edit Artikel](edit_artikel.png)
+![Edit Artikel](img/edit_artikel.png)
 
 ---
 
-### 5. Database Artikel (phpMyAdmin)
-Menampilkan data artikel yang tersimpan pada database `latihan_oop` melalui phpMyAdmin.
+### 5. Database Artikel
+Menampilkan data artikel pada database `latihan_oop`.
 
-![Database Artikel](database.png)
+![Database](img/database.png)
 
 
 
