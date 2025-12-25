@@ -1,71 +1,97 @@
-# Praktikum 11 – PHP OOP Lanjutan
+# Praktikum 11 – Framework PHP OOP (Modular & Routing)
 
-Repository ini berisi hasil pengerjaan **Praktikum 11 PHP OOP Lanjutan**  
-Mata Kuliah Pemrograman Web – Universitas Pelita Bangsa.
-
-Praktikum ini berfokus pada penerapan:
-- Konsep **PHP Object Oriented Programming (OOP)**
-- **Modularisasi program**
-- **Routing sederhana** menggunakan `.htaccess`
-- Struktur framework sederhana tanpa library tambahan
+## Identitas Mahasiswa
+- Nama        : Razy Al Farisi  
+- NIM         : 312410524
+- Program Studi : Teknik Informatika  
+- Universitas : Universitas Pelita Bangsa  
 
 ---
 
-## Identitas Mahasiswa
-- **Nama** : Razy Al Farisi  
-- **NIM** : 312410524  
-- **Kelas** : TI.24.A5  
+## Pendahuluan
+Praktikum 11 ini bertujuan untuk menerapkan konsep **Object Oriented Programming (OOP)** pada PHP dengan membangun sebuah framework sederhana berbasis **modular dan routing**.  
+Aplikasi dirancang agar memiliki struktur kode yang rapi, terorganisir, serta mudah dikembangkan pada tahap selanjutnya.
 
 ---
 
 ## Tujuan Praktikum
-- Memahami konsep framework modular sederhana
-- Menerapkan routing pada aplikasi PHP
-- Menggunakan class OOP untuk database dan form
-- Mengelola modul artikel dengan struktur terpisah
+Tujuan dari pelaksanaan praktikum ini adalah:
+1. Memahami penerapan konsep OOP pada bahasa pemrograman PHP  
+2. Menerapkan routing URL menggunakan file `.htaccess`  
+3. Membuat framework PHP sederhana dengan struktur modular  
+4. Menghubungkan aplikasi PHP dengan database MySQL  
+5. Mengimplementasikan fitur CRUD (Create, Read, Update, Delete)  
+
+---
+
+## Teknologi yang Digunakan
+- PHP 8.x  
+- MySQL  
+- Apache (XAMPP)  
+- Bootstrap 5  
+- CSS  
+- Visual Studio Code  
+
+---
+
+## Fitur Aplikasi
+- Routing URL menggunakan `.htaccess`
+- Struktur folder modular (class, module, template)
+- CRUD Artikel:
+  - Menampilkan daftar artikel
+  - Menambahkan artikel
+  - Mengubah artikel
+  - Menghapus artikel
+- Koneksi database menggunakan class berbasis OOP
+- Tampilan antarmuka menggunakan Bootstrap dan CSS
 
 ---
 
 ## Struktur Folder Project
-Project disusun dengan struktur sebagai berikut:
 
-![Struktur Folder](img/struktur_folder.png)
+```text
+lab11_php_oop/
+├── index.php            (Router utama)
+├── config.php           (Konfigurasi database)
+├── .htaccess            (Routing URL)
+├── class/
+│   └── Database.php
+├── module/
+│   ├── home/
+│   │   └── index.php
+│   └── artikel/
+│       ├── index.php
+│       ├── tambah.php
+│       ├── ubah.php
+│       └── hapus.php
+├── template/
+│   ├── header.php
+│   └── footer.php
 
----
 
-## Routing & Modularisasi
-Routing diterapkan menggunakan file `.htaccess` sehingga URL dapat diakses tanpa menyebutkan file `.php`.
 
-Contoh URL:
-- `/lab11_php_oop/artikel`
-- `/lab11_php_oop/artikel/tambah`
+## Struktur Database
+**Nama Database:** `latihan_oop`  
 
-Routing dikendalikan melalui file `index.php` yang bertugas memuat modul sesuai request URL.
+**Tabel:** `artikel`
 
----
-
-## Halaman Artikel
-Halaman ini menampilkan daftar artikel yang tersedia.
-
-![Halaman Artikel](img/artikel.png)
-
----
-
-## Tambah Artikel
-Halaman ini digunakan untuk menambahkan data artikel baru melalui form input.
-
-![Tambah Artikel](img/tambah_artikel.png)
-
----
-
-## Penyimpanan Data ke Database
-Data artikel yang ditambahkan melalui form berhasil disimpan ke dalam database `latihan_oop` pada tabel `artikel` menggunakan class `Database`.
-
-![Database Artikel](img/database.png)
+| Field | Tipe Data |
+|------|----------|
+| id | INT (Primary Key, Auto Increment) |
+| judul | VARCHAR(100) |
+| isi | TEXT |
 
 ---
 
-## Kesimpulan
-Melalui praktikum ini, konsep PHP OOP, modularisasi, dan routing berhasil diterapkan dalam sebuah framework sederhana.  
-Fitur yang diimplementasikan meliputi penampilan dan penambahan data artikel sesuai dengan kebutuhan praktikum.
+## Cara Menjalankan Aplikasi
+1. Jalankan Apache dan MySQL melalui XAMPP  
+2. Simpan folder project di direktori `htdocs`  
+3. Buat database `latihan_oop` di phpMyAdmin  
+4. Buat tabel `artikel` sesuai struktur  
+5. Akses aplikasi melalui browser:
+
+---
+
+## 📸 Dokumentasi
+Screenshot aplikasi disertakan pada laporan Praktikum 11 sebagai bukti hasil pengerjaan.
 
